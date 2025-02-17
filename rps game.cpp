@@ -1,5 +1,5 @@
 //ROCK PAPER SCISSOR GAME CODE USING CPP//
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 void Computer_vs_you(){
      int Computer_count=0,User_count=0;
@@ -8,7 +8,7 @@ void Computer_vs_you(){
      string username="Player ";
      cin>>username;
      srand(time(NULL));
-     while(1){
+     while(1){1;
        cout<<endl;
        cout<<username<<" SELECT ANY ONE OF THESE : "<<"\n1 : ROCK\n"<<"2 : PAPER\n"<<"3 : SCISSOR\n"<<"4 : EXIT\n"<<endl;
        cin>>User_option;
